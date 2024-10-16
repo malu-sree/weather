@@ -1,0 +1,15 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full height of the viewport */
+  background-image: url('./images/img1.jpg'); /* Adjust the path to your image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  flex: 1; /* Allow the container to fill the available space */
+}

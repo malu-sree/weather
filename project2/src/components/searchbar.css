@@ -1,0 +1,18 @@
+.input-group {
+    background-image: url('./images/img1.jpg'); /* Add your background image */
+    background-size: cover; /* Make sure the image covers the area */
+    border-radius: 10px; /* Round the corners */
+    padding: 10px; /* Add some padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  }
+  
+  .form-control {
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+  }
+  
+  .btn {
+    border-radius: 5px; /* Round the corners */
+  }
+  
