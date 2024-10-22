@@ -1,0 +1,17 @@
+/* App.css */
+.app-container {
+  position: relative; /* To position the background layer */
+  z-index: 1; /* Ensures the content is on top of the background */
+}
+
+.app-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Background layer below the content */
+  background-image: url('./images/img1.jpg'); /* Or use a solid color */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+}
